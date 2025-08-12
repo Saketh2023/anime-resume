@@ -1,0 +1,102 @@
+{
+  "name": "Ryu Shadowbyte",
+  "japaneseName": "流 シャドウバイト",
+  "codename": "The Code Phantom",
+  "alternateCodename": "Binary Wraith",
+  "onlineHandle": "Phantom_0x7",
+  "title": "Elite Phantom Thief & Senior Developer",
+  "tagline": "Liberating inefficient code, one system at a time",
+  "level": 32,
+  "class": "Full Stack Phantom Thief",
+  "guild": "Digital Phantom Thieves",
+  "location": "Neo-Tokyo Sector 7 (Remote Operations)",
+  "email": "contact@example.dev",
+  "phone": "+81 (555) PHANTOM",
+  "website": "",
+  "github": "",
+  "linkedin": "",
+  "twitter": "",
+  "stats": {
+    "chakra": 92,
+    "maxChakra": 100,
+    "focus": 96,
+    "maxFocus": 100,
+    "creativity": 88,
+    "maxCreativity": 100,
+    "experience": 9200,
+    "maxExperience": 10000
+  },
+  "badges": [
+    {
+      "id": "full-stack-master",
+      "name": "Full Stack Master",
+      "description": "Mastered both frontend and backend arts",
+      "icon": "⚔️",
+      "rarity": "legendary",
+      "earnedDate": "2023-06-15"
+    },
+    {
+      "id": "react-sensei",
+      "name": "React Sensei",
+      "description": "Achieved mastery in the way of React",
+      "icon": "⚛️",
+      "rarity": "epic",
+      "earnedDate": "2022-11-20"
+    },
+    {
+      "id": "typescript-wizard",
+      "name": "TypeScript Wizard",
+      "description": "Wielder of type-safe magic",
+      "icon": "🔮",
+      "rarity": "epic",
+      "earnedDate": "2023-01-10"
+    },
+    {
+      "id": "performance-ninja",
+      "name": "Performance Ninja",
+      "description": "Silent guardian of application speed",
+      "icon": "🥷",
+      "rarity": "rare",
+      "earnedDate": "2023-09-05"
+    },
+    {
+      "id": "mentor-sage",
+      "name": "Mentor Sage",
+      "description": "Guide of junior developers on their journey",
+      "icon": "🧙‍♂️",
+      "rarity": "rare",
+      "earnedDate": "2024-03-12"
+    }
+  ],
+  "avatar": {
+    "url": "/avatars/ryu-shadowbyte.png",
+    "style": "phantom-thief",
+    "background": "/backgrounds/neo-tokyo-night.jpg",
+    "effects": ["shadow-glow", "digital-particles", "code-rain"]
+  },
+  "bio": "Former phantom thief turned legitimate senior developer from Neo-Tokyo Sector 7. Philosophy: 'True phantom thieves don't steal - they liberate inefficient code.' Master of digital infiltration and system transformation with 6+ years of covert operations across fintech, e-commerce, and enterprise software. Specializes in extracting value from legacy systems and reconstructing them as modern, scalable architectures. Currently leading high-stakes technical missions serving millions of users while maintaining perfect operational security.",
+  "currentObjective": "Execute the ultimate liberation: freeing trapped data from legacy systems and transforming them into modern, scalable architectures",
+  "favoriteQuote": "True phantom thieves don't steal - they liberate inefficient code and leave behind something better.",
+  "joinDate": "2019-03-15",
+  "totalMissionsCompleted": 47,
+  "legendaryAchievements": 3,
+  "currentRank": "Senior Architect",
+  "nextRank": "Principal Engineer",
+  "rankProgress": 75,
+  "specialties": [
+    "Shadow Casting (TypeScript Mastery)",
+    "Digital Infiltration (System Architecture)",
+    "Phantom Optimization (Performance Tuning)", 
+    "Binary Manipulation (Data Engineering)",
+    "Stealth Leadership (Team Coordination)",
+    "Code Liberation (Legacy Modernization)",
+    "Security Phantom Arts (Auth & Authorization)"
+  ],
+  "personalityTraits": {
+    "analytical": 92,
+    "creative": 88,
+    "collaborative": 90,
+    "leadership": 85,
+    "adaptability": 91
+  }
+}

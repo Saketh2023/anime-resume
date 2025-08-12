@@ -1,0 +1,92 @@
+{
+  "themes": {
+    "persona": {
+      "id": "persona",
+      "name": "Persona 5",
+      "primary": "#e11d48",
+      "colors": {
+        "primary": "#e11d48",
+        "secondary": "#1f2937",
+        "accent": "#f59e0b",
+        "background": "#0a0a0a"
+      }
+    },
+    "ninja": {
+      "id": "ninja",
+      "name": "Shadow Ninja",
+      "primary": "#10b981",
+      "colors": {
+        "primary": "#10b981",
+        "secondary": "#1f2937", 
+        "accent": "#06b6d4",
+        "background": "#111827"
+      }
+    },
+    "pirate": {
+      "id": "pirate", 
+      "name": "Ocean Corsair",
+      "primary": "#3b82f6",
+      "colors": {
+        "primary": "#3b82f6",
+        "secondary": "#1e40af",
+        "accent": "#f59e0b",
+        "background": "#0f172a"
+      }
+    },
+    "mech": {
+      "id": "mech",
+      "name": "Cyber Mech", 
+      "primary": "#f97316",
+      "colors": {
+        "primary": "#f97316",
+        "secondary": "#dc2626",
+        "accent": "#eab308",
+        "background": "#18181b"
+      }
+    },
+    "cyberpunk": {
+      "id": "cyberpunk",
+      "name": "Cyberpunk",
+      "primary": "#00ff9f",
+      "colors": {
+        "primary": "#00ff9f",
+        "secondary": "#ff0080", 
+        "accent": "#ffff00",
+        "background": "#0a0a0a"
+      }
+    },
+    "fantasy": {
+      "id": "fantasy",
+      "name": "Fantasy",
+      "primary": "#8b5cf6", 
+      "colors": {
+        "primary": "#8b5cf6",
+        "secondary": "#f59e0b",
+        "accent": "#10b981",
+        "background": "#1f2937"
+      }
+    },
+    "space": {
+      "id": "space",
+      "name": "Space",
+      "primary": "#3b82f6",
+      "colors": {
+        "primary": "#3b82f6",
+        "secondary": "#8b5cf6",
+        "accent": "#06b6d4", 
+        "background": "#0f172a"
+      }
+    },
+    "phantom": {
+      "id": "phantom",
+      "name": "Phantom Thief",
+      "primary": "#ec4899",
+      "colors": {
+        "primary": "#ec4899",
+        "secondary": "#1e1b4b",
+        "accent": "#fbbf24",
+        "background": "#0f0f23"
+      }
+    }
+  }
+}

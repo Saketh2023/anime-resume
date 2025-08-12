@@ -1,0 +1,153 @@
+/* Design Tokens for Anime Resume */
+
+:root {
+  /* Typography Scale */
+  --font-size-xs: 0.75rem;      /* 12px */
+  --font-size-sm: 0.875rem;     /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;     /* 18px */
+  --font-size-xl: 1.25rem;      /* 20px */
+  --font-size-2xl: 1.5rem;      /* 24px */
+  --font-size-3xl: 1.875rem;    /* 30px */
+  --font-size-4xl: 2.25rem;     /* 36px */
+  --font-size-5xl: 3rem;        /* 48px */
+  --font-size-6xl: 3.75rem;     /* 60px */
+  
+  /* Line Heights */
+  --line-height-none: 1;
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+  
+  /* Font Weights */
+  --font-weight-thin: 100;
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+  
+  /* Spacing Scale */
+  --space-px: 1px;
+  --space-0: 0;
+  --space-1: 0.25rem;    /* 4px */
+  --space-2: 0.5rem;     /* 8px */
+  --space-3: 0.75rem;    /* 12px */
+  --space-4: 1rem;       /* 16px */
+  --space-5: 1.25rem;    /* 20px */
+  --space-6: 1.5rem;     /* 24px */
+  --space-8: 2rem;       /* 32px */
+  --space-10: 2.5rem;    /* 40px */
+  --space-12: 3rem;      /* 48px */
+  --space-16: 4rem;      /* 64px */
+  --space-20: 5rem;      /* 80px */
+  --space-24: 6rem;      /* 96px */
+  --space-32: 8rem;      /* 128px */
+  
+  /* Border Radius */
+  --radius-none: 0;
+  --radius-sm: 0.125rem;   /* 2px */
+  --radius-default: 0.25rem;  /* 4px */
+  --radius-md: 0.375rem;   /* 6px */
+  --radius-lg: 0.5rem;     /* 8px */
+  --radius-xl: 0.75rem;    /* 12px */
+  --radius-2xl: 1rem;      /* 16px */
+  --radius-3xl: 1.5rem;    /* 24px */
+  --radius-full: 9999px;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-default: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  
+  /* Anime-Specific Effects */
+  --glow-sm: 0 0 5px currentColor;
+  --glow-md: 0 0 10px currentColor;
+  --glow-lg: 0 0 20px currentColor;
+  --glow-xl: 0 0 40px currentColor;
+  
+  /* Z-Index Scale */
+  --z-auto: auto;
+  --z-0: 0;
+  --z-10: 10;
+  --z-20: 20;
+  --z-30: 30;
+  --z-40: 40;
+  --z-50: 50;
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+  --z-toast: 1080;
+  
+  /* Timing Functions */
+  --ease-linear: linear;
+  --ease-in: cubic-bezier(0.4, 0, 1, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-phantom: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* Animation Durations */
+  --duration-75: 75ms;
+  --duration-100: 100ms;
+  --duration-150: 150ms;
+  --duration-200: 200ms;
+  --duration-300: 300ms;
+  --duration-500: 500ms;
+  --duration-700: 700ms;
+  --duration-1000: 1000ms;
+  
+  /* Breakpoints (for JS usage) */
+  --bp-sm: 640px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bp-xl: 1280px;
+  --bp-2xl: 1536px;
+  
+  /* Persona 5 Brand Colors */
+  --p5-red: #e60012;
+  --p5-red-dark: #b8000e;
+  --p5-red-light: #ff1a2b;
+  --p5-black: #000000;
+  --p5-white: #ffffff;
+  --p5-yellow: #ffcc00;
+  --p5-yellow-dark: #cc9900;
+  --p5-gray: #333333;
+  --p5-gray-light: #666666;
+  
+  /* Theme Color Variations */
+  --primary-50: hsl(from var(--theme-primary) h s 95%);
+  --primary-100: hsl(from var(--theme-primary) h s 90%);
+  --primary-200: hsl(from var(--theme-primary) h s 80%);
+  --primary-300: hsl(from var(--theme-primary) h s 70%);
+  --primary-400: hsl(from var(--theme-primary) h s 60%);
+  --primary-500: var(--theme-primary);
+  --primary-600: hsl(from var(--theme-primary) h s 40%);
+  --primary-700: hsl(from var(--theme-primary) h s 30%);
+  --primary-800: hsl(from var(--theme-primary) h s 20%);
+  --primary-900: hsl(from var(--theme-primary) h s 10%);
+  
+  /* Glass Effects */
+  --glass-blur: 10px;
+  --glass-opacity: 0.1;
+  --glass-border: rgba(255, 255, 255, 0.1);
+  
+  /* Gradient Presets */
+  --gradient-phantom: linear-gradient(135deg, #ec4899, #8b5cf6);
+  --gradient-cyber: linear-gradient(135deg, #00ff9f, #ff0080);
+  --gradient-space: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  --gradient-fire: linear-gradient(135deg, #f97316, #dc2626);
+  --gradient-ocean: linear-gradient(135deg, #3b82f6, #06b6d4);
+  --gradient-forest: linear-gradient(135deg, #10b981, #059669);
+}
